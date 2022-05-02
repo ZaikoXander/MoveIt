@@ -1,11 +1,9 @@
 import Head from "next/head"
 import { ExperienceBar } from "../components/ExperienceBar"
 
-import styles from '../styles/pages/Home.module.css';
-
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
